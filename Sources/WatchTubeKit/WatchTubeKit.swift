@@ -22,7 +22,7 @@ public struct WatchTube {
     }
     
     internal static func alert(_ msg: String) {
-        let vc = WKApplication.shared().visibleInterfaceController!
+        let vc = WKExtension.shared().visibleInterfaceController!
         vc.alert(msg)
     }
     
