@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "WatchTubeKit",
+    platforms: [
+        .watchOS(.v6),
+    ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -21,8 +24,5 @@ let package = Package(
         .target(
             name: "WatchTubeKit",
             dependencies: []),
-        .testTarget(
-            name: "WatchTubeKitTests",
-            dependencies: ["WatchTubeKit"]),
     ]
 )
