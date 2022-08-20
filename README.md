@@ -2,7 +2,7 @@
 
 Simple package to allow developers to use WatchTube for their apps!
 
-This package lets you hand users off to WatchTube for them to enjoy the WatchTube featureset when looking to watch content from YouTube in yout app!
+This package lets you hand users off to WatchTube for them to enjoy the WatchTube featureset when looking to watch content from YouTube in your app!
 
 # Installing
 We recommend using the Swift Package Manager and entering `https://github.com/WatchTubeTeam/WatchTubeKit`
